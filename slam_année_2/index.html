@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--FONT AWESOME-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css">
+        <title>Helio</title>
+    </head>
+    <body>
+        <div class="wrap">
+            <header>
+                <nav >
+                    <div class="col-2">
+                        <a href="index.html">
+                            <img src="Images/Logo.png"></a>
+                    </div>
+                    <div class="offset-5 col-1 pt-5">
+                        <a href="Produits.html" style="text-decoration: none;">
+                            <h3>Produits</h3>
+                        </a>
+                    </div>
+                    <div class="col-1 pt-5">
+                        <a href="Prestations.html">
+                            <h3>Prestations</h3>
+                        </a>
+                    </div>
+                    <div class="col-1 pt-5">
+                        <a href="Contact.html">
+                            <h3>Contact</h3>
+                        </a>
+                    </div>
+                    <div class="col-1 pt-5">
+                      <button onclick="myFunction()">Mode nuit</button>
+                      <script>
+                        function myFunction() {
+                           var element = document.body;
+                           element.classList.toggle("dark-mode");
+                        }
+                        </script>
+                  </div>
+                </nav>
+            </header>
+            <main>
+                <h1>Qui sommes nous ?</h1>
+                <div class="presentation">
+                    <p>Bienvenue, nous sommes Helio une entreprise de maintenance informatique
+                        située à Montévrain.</p>
+                    <p>
+                        Notre équipe est constiuée de 6 associés, dont trois developpeurs et trois
+                        techniciens informatique</p>
+                </div>
+
+                <h1>Nos valeurs :</h1>
+                <div class="pt-2">
+                    <h1>Qualité</h1>
+                    <h1>Confiance</h1>
+                    <h1>Réactivité</h1>
+                </div>
+            </main>
+            <footer>
+              <div class="footer-links">
+                <div class="col-1 pt-5">
+                    <a href="index.html" style="text-decoration: none;">
+                        <p>Accueil</p>
+                    </a>
+                </div>
+                <div class="col-2 pt-5">
+                    <a href="Mentions Légales - Helio - 2023-09-19T14_28_58Z.pdf">
+                        <p>Mentions légales</p>
+                    </a>
+                </div>
+                <div class="col-1 pt-5">
+                    <a href="Contact.html">
+                        <p>Contact</p>
+                    </a>
+                </div>
+            </div>
+                <div class="footer-social">
+                    <a href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+                <p>&copy; 2023 Votre Entreprise HELIO. Tous droits réservés.</p>
+            </footer>
+        </div>
+    </body>
+</html>
